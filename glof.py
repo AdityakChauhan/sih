@@ -35,7 +35,7 @@ def count_hue_range_pixels(image_path, hue_start=208, hue_end=212, saturation_mi
     return pixel_count
 
 # Provide the path to your image
-image_path = "glof_photo5.jpg"
+image_path = "glof_photo4.jpg"
 
 # Count the pixels with hue in the range 200-220
 total_pixel_count = count_hue_range_pixels(
